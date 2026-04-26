@@ -1,8 +1,17 @@
-# ShaderTranspiler
+<div align="center">
+  <h3>
+    <a href="https://github.com/ShaderTranspiler/core">stc</a> &nbsp;•&nbsp;
+    <a href="https://github.com/ShaderTranspiler/ShaderTranspiler.jl">ShaderTranspiler.jl</a> &nbsp;•&nbsp;
+    <a href="https://github.com/ShaderTranspiler/ShaderSandbox.jl">ShaderSandbox.jl</a> &nbsp;•&nbsp;
+    <a href="https://github.com/ShaderTranspiler/stc_jll.jl">stc_jll.jl</a>
+  </h3>
+</div>
+
+# Shader Transpiler Project
 
 A performance-focused bridge between high-level CPU-side user code and native GPU execution.
 
-The ShaderTranspiler organization hosts the STC (Shader Transpiler Core) ecosystem — a suite of tools designed to compile Julia-based shader definitions into optimized, production-ready GLSL. By leveraging a high-performance C++ engine and a seamless Julia interface, we enable developers to write expressive, type-safe shaders without leaving the Julia environment.
+The ShaderTranspiler organization hosts a high-performance transpiler library, along with Julia bindings and a set of tools for testing and development.
 
 ## Quick Note on the Current State
 
