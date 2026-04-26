@@ -2,8 +2,12 @@
   <h3>
     <a href="https://github.com/ShaderTranspiler/core">stc</a> &nbsp;•&nbsp;
     <a href="https://github.com/ShaderTranspiler/ShaderTranspiler.jl">ShaderTranspiler.jl</a> &nbsp;•&nbsp;
-    <a href="https://github.com/ShaderTranspiler/ShaderSandbox.jl">ShaderSandbox.jl</a> &nbsp;•&nbsp;
     <a href="https://github.com/ShaderTranspiler/stc_jll.jl">stc_jll.jl</a>
+  </h3>
+</div>
+<div align="center">
+  <h3>
+    <a href="https://github.com/ShaderTranspiler/ShaderSandbox.jl">ShaderSandbox.jl</a>
   </h3>
 </div>
 
