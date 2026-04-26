@@ -52,9 +52,9 @@ For use cases where there isn't a clear separation between some "blackbox" end-u
 
 ## Transpiler
 
-The architecture is built around a core library (stc), ensuring that the heavy lifting of transpilation is handled by a robust, cross-platform engine written in C++20.
+The architecture is built around a core library, ensuring that the heavy lifting of transpilation is handled by a fast, cross-platform engine written in C++20.
 
-- [core](https://github.com/ShaderTranspiler/core): The heart of the project: a 10K+ SLOC C++ library (stc) that handles frontend AST parsing, semantic analysis, and target code generation. It is designed and developed with speed and modularity in mind. It contains both general transpilation code, as well language-specific passes.
+- [core](https://github.com/ShaderTranspiler/core): The heart of the project: a 10K+ SLOC C++ library (stc) that handles frontend AST parsing, semantic analysis, and target code generation. It is designed and developed with speed and modularity in mind. It contains both general transpilation code, as well as language-specific passes.
 
 - [stc_jll.jl](https://github.com/ShaderTranspiler/stc_jll.jl) The binary distribution layer for Julia usage. It's powered by [BinaryBuilder.jl](https://github.com/JuliaPackaging/BinaryBuilder.jl), and provides pre-compiled versions of stc for multiple platforms (currently Linux and Windows, with MacOS hopefully coming soon) across multiple Julia versions (currently 1.10-1.12).
 
@@ -62,7 +62,7 @@ The architecture is built around a core library (stc), ensuring that the heavy l
 
 ## Tooling
 
-- [ShaderSandbox.jl](https://github.com/ShaderTranspiler/ShaderSandbox.jl) A simple app that allows quickly and easily testing the transpiler through a [Shadertoy](https://shadertoy.com)-like sandbox environment. Though it was mainly designed for testing the transpiler, it can be used as a general sandbox environment as well for writing vertex and fragment shaders.
+- [ShaderSandbox.jl](https://github.com/ShaderTranspiler/ShaderSandbox.jl) A simple app that allows quickly and easily testing the transpiler through a [Shadertoy](https://shadertoy.com)-like sandbox environment. Though it was mainly designed for testing the transpiler, it can be used as a general sandbox environment as well for writing and testing vertex/fragment shaders.
 
 # Getting Started
 
