@@ -90,14 +90,14 @@ println(shader_code)
 Notice how the only place where GPU-specific code needs to be written is when applying type qualifiers.
 This enables automatized generation of shader code that performs complex calculations from end-user code written in plain Julia, by wrapping it in a `main` function, and prepending some fixed code snippet to define the shader interface.
 
-## Contributing
+# Contributing
 
 The project is currently being developed and maintained solely by [me](https://github.com/szgerii). As the base architecture is still under heavy development and faces constant restructuring, this will remain so for the foreseeable future.
 
 The primary reason for creating this organization was to group the various repos of the project together, not fostering an open source community (though, obviously, that'd be highly unlikely to happen anyways). 
 **Any major external contributions will be rejected. Small bug fixes or minor QoL improvements are welcome.**
 
-## License
+# License
 
 Despite not accepting any external contributions, most of the ShaderTranspiler project's source code is licensed under the MIT License, allowing free use and redistribution of the codebase. See individual repositories for specific licensing details.
 
