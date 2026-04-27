@@ -1,6 +1,6 @@
 <div align="center">
   <h3>
-    <a href="https://github.com/ShaderTranspiler/core">stc</a> &nbsp;•&nbsp;
+    <a href="https://github.com/ShaderTranspiler/stc">stc</a> &nbsp;•&nbsp;
     <a href="https://github.com/ShaderTranspiler/ShaderTranspiler.jl">ShaderTranspiler.jl</a> &nbsp;•&nbsp;
     <a href="https://github.com/ShaderTranspiler/stc_jll.jl">stc_jll.jl</a>
   </h3>
@@ -52,9 +52,9 @@ For use cases where there isn't a clear separation between some "blackbox" end-u
 
 ## Transpiler
 
-The architecture is built around a core library, ensuring that the heavy lifting of transpilation is handled by a fast, cross-platform engine written in C++20.
+The architecture is built around a central library, ensuring that the heavy lifting of transpilation is handled by a fast, cross-platform engine written in C++20.
 
-- [core](https://github.com/ShaderTranspiler/core): The heart of the project: a 10K+ SLOC C++ library (stc) that handles frontend AST parsing, semantic analysis, and target code generation. It is designed and developed with speed and modularity in mind. It contains both general transpilation code, as well as language-specific passes.
+- [stc](https://github.com/ShaderTranspiler/stc): The Shader Transpiler Core library is the heart of the project: a 10K+ SLOC C++ library that handles frontend AST parsing, semantic analysis, and target code generation. It is designed and developed with speed and modularity in mind. It contains both general transpilation code, as well as language-specific passes.
 
 - [stc_jll.jl](https://github.com/ShaderTranspiler/stc_jll.jl) The binary distribution layer for Julia usage. It's powered by [BinaryBuilder.jl](https://github.com/JuliaPackaging/BinaryBuilder.jl), and provides pre-compiled versions of stc for multiple platforms (currently Linux and Windows, with MacOS hopefully coming soon) across multiple Julia versions (currently 1.10-1.12).
 
